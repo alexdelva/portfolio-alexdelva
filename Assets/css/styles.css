@@ -1,0 +1,66 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+ 
+}
+
+body {
+
+}
+.banner {
+    height: 100px;
+
+}
+
+nav {
+   
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+   
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+#name {
+    display: inline;
+}
+
+.contactPhoto {
+    border-radius: 90px;
+    width: 200px;
+    height: 300px;
+    position: relative;
+ 
+}
+
+#bio {
+    float: right;
+    display: inline;
+    width: 65%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+
+}
+
+.project {
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+
+}
